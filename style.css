@@ -1,0 +1,80 @@
+body{
+	background: radial-gradient(196.44% 100% at 50% 0%, #1E7EEE 0%, #43C7FF 100%);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main{
+	width: 1140px;
+	height: 571px;
+	background: #FFFFFF;
+	transition: all 0.5s linear;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	}
+
+
+.main:hover{
+	box-shadow: 10px 17px 23px 4px rgba(0, 0, 0, 0.7);
+}
+
+center h1{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 45px;
+	line-height: 54px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+p{
+	font-family: Arial;
+	width: 70%;
+	font-style: normal;
+	font-weight: 400;
+}
+
+button{
+	width: 40%;
+	height: 15%;
+	border: none;
+	background: linear-gradient(90deg, #43C7FF 1.91%, #1E7EEE 100%);
+	border-radius: 15px;
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	transition: all 0.5s linear;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+button:hover{
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.buttons{
+	text-align: center;
+	height: 100%;
+}
+
+.output-div{
+	border: 2px solid #1E7EEE;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.output-text{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 500;
+	color: #1E7EEE;
+}
